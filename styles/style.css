@@ -1,0 +1,107 @@
+html {
+  background: hsl(230, 96%, 62%);
+  background: -moz-radial-gradient(circle, hsl(230, 96%, 62%) 0%, hsl(348, 97%, 63%) 100%);
+  background: -webkit-radial-gradient(circle, hsl(230, 96%, 62%) 0%, hsl(348, 97%, 63%) 100%);
+  background: radial-gradient(circle, hsl(230, 96%, 62%) 0%, hsl(348, 97%, 63%) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+}
+
+body {
+  font-family: 'Sono', sans-serif;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(58, 91%, 75%);
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.container:hover .overlay {
+  height: 80%;
+  opacity: 50%;
+}
+
+.text {
+  color: hsl(0, 0%, 0%);
+  font-size: 16px;
+  position: absolute;
+  max-width: 40ch;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  text-align: justify;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  
+}
+
+img {
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+/* html page 2 */
+
+.container2 {
+  display: flex;
+}
+
+.images {
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  width: 50%;
+}
