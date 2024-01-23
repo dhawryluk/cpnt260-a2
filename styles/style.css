@@ -94,6 +94,10 @@ h1 {
   padding-bottom: 20px;
 }
 
+ul.images {
+  padding: 0;
+}
+
 li {
   list-style: none;
   margin: 0;
